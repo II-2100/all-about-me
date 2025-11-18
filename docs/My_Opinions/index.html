@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -193,8 +222,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#b.2.-my-opinions" id="toc-b.2.-my-opinions" class="nav-link active" data-scroll-target="#b.2.-my-opinions"><span class="header-section-number">7.1</span> B.2. My Opinions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -220,8 +255,21 @@ ul.task-list li input[type="checkbox"] {
 
 <p>SApa itu beropini? <a href="BM Opini.mp4">Opini Berpengaruh</a></p>
 <p>Bagiamana menjaadi menarik? <a href="./Interesting.mp4">Menjadi Menarik</a></p>
+<section id="b.2.-my-opinions" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="b.2.-my-opinions"><span class="header-section-number">7.1</span> B.2. My Opinions</h2>
+<p><strong>Judul: Penderitaan sebagai Kegagalan Desain: Merancang Teater untuk Kisah Hidup Epik</strong></p>
+<p>Saya berpendapat bahwa penderitaan sistemik yang kita saksikan—kelaparan, keputusasaan, kurangnya tujuan—pada dasarnya adalah sebuah <em>kegagalan desain</em>. Mengingat kelimpahan sumber daya (sumber “Energon” <sup>5</sup>) di planet ini dan durasi hidup manusia yang terbatas (kurang dari 100 tahun), penderitaan yang meluas bukanlah kondisi yang tak terhindarkan, melainkan hasil dari sistem yang dirancang dengan buruk. Sistem-sistem ini gagal mengelola dan mendistribusikan “Energi PSKVE” (Produk, Layanan, Pengetahuan, Nilai, Lingkungan) <sup>3</sup> secara holistik dan adil.</p>
+<p>Dalam paradigma TISE 2.0, penderitaan ini dapat dipahami sebagai <strong>“narasi kontaminasi”</strong>—sebuah cerita di mana potensi yang baik dirusak dan berubah menjadi hasil yang negatif (<span class="math inline">\(A_{pos} \rightarrow B_{neg}\)</span>).<sup>1</sup> Solusinya, oleh karena itu, harus bersifat naratif dan eksistensial. Kita harus memfasilitasi “pementasan kisah hidup epik”. Ini bukan tentang hiburan; ini adalah tentang menumbuhkan <strong>Identitas Naratif</strong> <sup>1</sup> yang kuat bagi setiap individu. Tindakan “memberi makna pada setiap peristiwa dan kondisi” adalah tindakan kognitif inti dari <strong>Penalaran Otobiografis</strong>.<sup>1</sup></p>
+<p>Di sinilah peran rekayasawan didefinisikan ulang secara radikal. Rekayasawan bukan lagi sekadar “Komposer” yang menulis naskah kaku untuk dieksekusi orang lain (model TISE 1.0). Sebaliknya, rekayasawan harus menjadi <strong>“Arsitek Lingkungan Naratif”</strong>.<sup>1</sup></p>
+<p>“Lingkungan kerja dan lingkungan hidup” yang harus kita bangun adalah “Teater Kehidupan” <sup>6</sup> itu sendiri. Dalam TISE 2.0, lingkungan ini dirancang sebagai <strong>“Partitur 2.0”</strong>.<sup>1</sup> Lingkungan ini tidak boleh dirancang hanya untuk efisiensi produktif, tetapi harus dirancang secara eksplisit untuk menumbuhkan dua pilar psikologis utama dari Axiological Intelligence (AQ) <sup>2</sup>:</p>
+<ol type="1">
+<li><p><strong>Agensi (<em>Agency</em>):</strong> Lingkungan tersebut harus memiliki “Jalan Agensi” (<em>Agency Roads</em>) <sup>1</sup> yang mendorong “karya orisinal”. Ini adalah alur kerja yang secara progresif meningkatkan otonomi dan kapasitas pengambilan keputusan, memberdayakan individu sebagai <em>Protagonis-Penulis</em> atas karya dan kehidupan mereka.</p></li>
+<li><p><strong>Penebusan (<em>Redemption</em>):</strong> Lingkungan tersebut harus memiliki “Stasiun Penebusan” (<em>Redemption Stations</em>).<sup>1</sup> Ia harus menjadi ruang yang aman secara psikologis di mana kegagalan tidak dihukum tetapi <em>diproses</em>. Ia harus memandu individu untuk membingkai ulang kemunduran (<span class="math inline">\(A_{neg}\)</span>) menjadi pertumbuhan, pembelajaran, dan kebijaksanaan (<span class="math inline">\(B_{pos}\)</span>).</p></li>
+</ol>
+<p>Opini saya tegas: kegagalan terbesar dari rekayasa modern adalah fokusnya pada pemberdayaan mesin. Misi kita seharusnya adalah merancang <em>teater</em> yang memberdayakan <em>manusia</em> untuk belajar, berkarya, dan menjalani kisah hidup yang koheren, bermakna, dan penuh penebusan.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
