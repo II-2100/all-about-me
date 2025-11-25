@@ -1,6 +1,6 @@
 # UAS-4 My Knowledge
 
-[Valorize](../images/VALORAIZE_Learning_Arsitektur_Pengetahuan_Profesional.pdf)
+![Valorize](../images/VALORAIZE_Learning_Arsitektur_Pengetahuan_Profesional.pdf)
 
 **Judul: VALORISE dan Penyelesaian Paradoks Pendidikan Rekayasa**
 
