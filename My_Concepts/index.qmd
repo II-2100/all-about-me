@@ -1,14 +1,10 @@
 # UAS-1 My Concepts
-Mau hidup epik ? [Write your Life Story](lifestory.pdf)
-
-Apa itu berkonsep? 
-
-{{< video https://youtu.be/QVfUlVBO80U?si=yM6q_rwV9rcDBbu7>}}
 
 
-## B.1. My Concepts
+**Mahakarya Kolektif: Menyelaraskan Hati, Pikiran, dan Tenaga 8 Miliar Manusia**
 
-**Judul: Mahakarya Kolektif: Menyelaraskan Hati, Pikiran, dan Tenaga 8 Miliar Manusia**
+
+![TISE](../images/TISE.png)
 
 Konsep saya tentang "Mahakarya Rekayasa" melampaui artefak teknis belaka; ia adalah sebuah sistem sosio-teknis yang dirancang untuk pemberdayaan kolektif. "Masalah terbesar umat manusia"—kemiskinan, konflik, degradasi lingkungan—pada intinya adalah krisis koordinasi dan krisis makna. Untuk mengerahkan 8 miliar penduduk bumi, kita harus terlebih dahulu memahami dan menyelaraskan tiga komponen fundamental dari kecerdasan kolektif kita. Arsitektur konseptual ini saya sebut sebagai **Triune Intelligence (Kecerdasan Tripartit)**.^3^
 

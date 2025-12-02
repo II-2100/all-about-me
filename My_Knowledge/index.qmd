@@ -1,8 +1,8 @@
 # UAS-4 My Knowledge
 
-![Valorize](../images/VALORAIZE_Learning_Arsitektur_Pengetahuan_Profesional.pdf)
+**VALORISE dan Penyelesaian Paradoks Pendidikan Rekayasa**
 
-**Judul: VALORISE dan Penyelesaian Paradoks Pendidikan Rekayasa**
+![Valorize Learning](../images/5forces.png)
 
 Untuk mengajarkan paradigma TISE yang kompleks, metode pedagogis konvensional tidak memadai. Oleh karena itu, saya mengembangkan **VALORISE**. Ini adalah metodologi pedagogis TISE yang dirancang untuk menyelesaikan "Paradoks Pendidikan Ilmu Rekayasa".
 
@@ -31,10 +31,3 @@ VALORISE menyelesaikan ini dengan dua komponen utama: struktur kurikulum dan des
     -   Agen VALORISE tidak akan menjawab, "Apa jawabannya?" Sebaliknya, ia akan merespons dengan *prompt* reflektif TISE 2.0 ^1^: "Itu tantangan yang menarik. Apa yang telah Anda coba? Kekuatan apa dari diri Anda yang dapat Anda gunakan untuk meresponsnya?"
 
 Dengan demikian, VALORISE menggunakan AI bukan untuk menggantikan pemikiran, tetapi untuk *memprovokasi* **Penalaran Otobiografis**, memaksa siswa untuk menjadi **Protagonis-Penulis** dari pembelajaran mereka sendiri. Ini adalah pemihakan radikal, dan perlu, pada pemberdayaan manusia di era AI.
-
-## Lain-Lian
-Cara saya mengkomunikasikan sebuah pengatahuan sebagai petunjuk bagi orang lain
-1) saya tulis [makalah sebagai bahan utama](Rekomendasi%20Presentasi%20Efektif(Contoh%20Makalah).pdf)
-2) lalu saya buat [transkrip ucapan lisan](Contoh%20Transkrip%20Presentasi.pdf)
-3) kemudian saya kembangkan [slide pendukung trnsskrip](Rekomendasi%20Presentasi%20(Contoh%20Slides).pdf)
-4) lalu saya memproduksivideo audio visual {{< video https://youtu.be/ZbghfMvnPZc>}} {{< video https://youtu.be/ZbghfMvnPZc>}}
