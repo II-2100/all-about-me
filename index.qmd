@@ -3,6 +3,11 @@
 ## MyWork
 Menghadapai era Artificial Intelligence, rekaysawan mendaspat kesempatan besar untuk membangun artefak yang meberdayakan manusia. Salah satu [masalah terbesar](./images/top10.pdf) ada di bidang pendidikan.
 
+:::{#fig-TISE}
+![TISE](images/TISE.png)
+Triune-Intelligence Smart-Engineering.
+:::
+
 ## About ME
 
 ![About Me](images/AZRL.png){width=950%}
